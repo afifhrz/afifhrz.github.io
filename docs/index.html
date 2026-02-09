@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software Engineer with 6+ years of experience. Specialized in scalable systems, cloud infrastructure, and microservices. Open to remote opportunities.">
+    <meta name="theme-color" content="#0f172a">
+    <title>Software Engineer - Hariz Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home" class="logo-link">SE</a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Software Engineer</h1>
+            <p class="tagline">Building scalable systems that power the web and application</p>
+            <p class="subtitle">6+ years crafting robust backends, microservices, and cloud infrastructure. Passionate about clean code, performance, and solving complex problems.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-decoration"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>I'm a software engineer with a deep passion for designing and building scalable, reliable systems. Over the past 6 years, I've worked on high-traffic applications serving millions of users, optimizing performance at every layer of the stack.</p>
+                
+                <p>My expertise spans API design, database optimization, distributed systems, and cloud infrastructure. I believe in writing maintainable code, thorough testing, and continuous learning. I'm particularly interested in solving complex architectural challenges and mentoring junior engineers.</p>
+                
+                <p>I'm actively seeking remote opportunities where I can contribute to meaningful projects and grow alongside talented teams. When I'm not coding, you'll find me exploring new technologies, contributing to open-source, or diving deep into system design concepts.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Senior Software Engineer</h3>
+                        <span class="experience-company">The Software Practice</span>
+                    </div>
+                    <p class="experience-period">2025 - Present</p>
+                    <ul class="experience-list">
+                        <li>Developed backend features for Singapore Land Authority government portals, supporting large-scale land administration workflows</li>
+                        <li>Optimized database queries achieving 40% performance improvement</li>
+                        <li>Refactored legacy services into clean architecture aligned with SOLID principles, improving maintainability and testability</li>
+                        <li>Implemented automated testing framework increasing code coverage to 85%</li>
+                        <li>Collaborated closely with frontend teams to deliver end-to-end features in a regulated, enterprise environment</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Middle Software Engineer</h3>
+                        <span class="experience-company text-center">Samsung R&D<br>Institute Indonesia</span>
+                    </div>
+                    <p class="experience-period">2023 - 2025</p>
+                    <ul class="experience-list">
+                        <li>Designed and implemented distributed backend services using .NET, gRPC, and Proto.Actor for real-time cloud applications</li>
+                        <li>Built event-driven pipelines using Kafka and Temporal, improving system reliability, fault tolerance, and workflow orchestration</li>
+                        <li>Containerized and deployed services using Docker, Kubernetes, and Helm, enabling consistent CI/CD pipelines</li>
+                        <li>Conducted performance benchmarking and optimization for latency-sensitive services in production-like environments</li>
+                        <li>Earned Samsung Advanced-Level Software Certification in algorithms and data structures</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Backend Engineer</h3>
+                        <span class="experience-company">Pasifik Satelit Nusantara</span>
+                    </div>
+                    <p class="experience-period">2022 - 2023</p>
+                    <ul class="experience-list">
+                        <li>Built and maintained backend services handling 10,000+ concurrent API users</li>
+                        <li>Developed ERP modules supporting 500+ internal users, delivering all features on schedule</li>
+                        <li>Implemented billing and service APIs using Django, Flask, and FastAPI, containerized with Docker</li>
+                        <li>Designed centralized logging and monitoring pipelines using Kafka, Elasticsearch, and Kibana</li>
+                        <li>Deployed scalable cloud services on AWS Elastic Beanstalk, improving system stability and availability</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <!-- <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Real-time Analytics Platform</h3>
+                        <a href="#" class="project-link" title="View project">→</a>
+                    </div>
+                    <p class="project-description">Built a real-time analytics engine processing 1M events/second using Kafka, Redis, and PostgreSQL. Implemented complex aggregation pipelines and time-series data optimization.</p>
+                    <div class="project-tags">
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Kafka</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">Redis</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Microservices Gateway</h3>
+                        <a href="#" class="project-link" title="View project">→</a>
+                    </div>
+                    <p class="project-description">Engineered an API gateway handling routing, rate limiting, and authentication for 20+ microservices. Achieved sub-50ms latency with intelligent caching strategies.</p>
+                    <div class="project-tags">
+                        <span class="tag">Go</span>
+                        <span class="tag">gRPC</span>
+                        <span class="tag">Kubernetes</span>
+                        <span class="tag">Docker</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Distributed Database Sync</h3>
+                        <a href="#" class="project-link" title="View project">→</a>
+                    </div>
+                    <p class="project-description">Designed conflict resolution algorithm for distributed database synchronization across global regions. Ensured eventual consistency with minimal data loss.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">CRDT</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">AWS</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>High-Performance Cache Layer</h3>
+                        <a href="#" class="project-link" title="View project">→</a>
+                    </div>
+                    <p class="project-description">Implemented custom caching layer with intelligent TTL management and cache invalidation strategies. Reduced database load by 70% and improved response times.</p>
+                    <div class="project-tags">
+                        <span class="tag">Redis</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">LRU Cache</span>
+                        <span class="tag">Performance</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h4>Languages</h4>
+                    <div class="skill-list">
+                        <span class="skill-badge">C#</span>
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">Go</span>
+                        <span class="skill-badge">PHP</span>
+                        <span class="skill-badge">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Framework</h4>
+                    <div class="skill-list">
+                        <span class="skill-badge">.NET 8 / ASP.NET Core</span>
+                        <span class="skill-badge">gRPC</span>
+                        <span class="skill-badge">Proto Actor</span>
+                        <span class="skill-badge">Django</span>
+                        <span class="skill-badge">FastAPI</span>
+                        <span class="skill-badge">Flask</span>
+                        <span class="skill-badge">Laravel</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Databases</h4>
+                    <div class="skill-list">
+                        <span class="skill-badge">PostgreSQL</span>
+                        <span class="skill-badge">MongoDB</span>
+                        <span class="skill-badge">Redis</span>
+                        <span class="skill-badge">Elasticsearch</span>
+                        <span class="skill-badge">FoundationDB</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Cloud & DevOps</h4>
+                    <div class="skill-list">
+                        <span class="skill-badge">AWS</span>
+                        <span class="skill-badge">Kubernetes</span>
+                        <span class="skill-badge">Docker</span>
+                        <span class="skill-badge">CI/CD</span>
+                        <span class="skill-badge">Helm</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Specialized Areas</h4>
+                    <div class="skill-list">
+                        <span class="skill-badge">Microservices</span>
+                        <span class="skill-badge">System Design</span>
+                        <span class="skill-badge">API Design</span>
+                        <span class="skill-badge">Performance Optimization</span>
+                        <span class="skill-badge">Clean Architecture</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="contact-subtitle">I'm open to remote opportunities and collaborations. Feel free to reach out!</p>
+            
+            <div class="contact-methods">
+                <a href="mailto:ahmadafif.hariz@gmail.com" class="contact-link">
+                    <span class="contact-icon">✉</span>
+                    <div>
+                        <div class="contact-label">Email</div>
+                        <div class="contact-value">ahmadafif.hariz@gmail.com</div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/afifhrz" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <span class="contact-icon">⚙</span>
+                    <div>
+                        <div class="contact-label">GitHub</div>
+                        <div class="contact-value">github.com/afifhrz</div>
+                    </div>
+                </a>
+
+                <a href="https://linkedin.com/in/afifhrz" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <span class="contact-icon">💼</span>
+                    <div>
+                        <div class="contact-label">LinkedIn</div>
+                        <div class="contact-value">linkedin.com/in/afifhrz</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Software Engineer. Crafted with care and coffee.</p>
+            <p class="footer-links">
+                <a href="#home">Home</a> • 
+                <a href="#about">About</a> • 
+                <a href="#contact">Contact</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
