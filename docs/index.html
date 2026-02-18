@@ -3,13 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Software Engineer with 6+ years of experience. Specialized in scalable systems, cloud infrastructure, and microservices. Open to remote opportunities.">
+    <meta name="description" content="Ahmad Afif Aulia Hariz - Software Engineer at HRZ Indonesia | IT Solutions. 6+ years of experience in scalable systems, cloud infrastructure, and microservices. Expert backend developer specializing in .NET, Python, and distributed systems.">
+    <meta name="keywords" content="Ahmad Afif Aulia Hariz, Software Engineer, HRZ Indonesia, IT Solutions, Backend Developer, .NET Developer, Python Developer, Cloud Infrastructure, Microservices, System Design, Remote Software Engineer">
+    <meta name="author" content="Ahmad Afif Aulia Hariz">
+    <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#0f172a">
-    <title>Software Engineer - Hariz Professional Portfolio</title>
+    
+    <meta property="og:title" content="Ahmad Afif Aulia Hariz - Software Engineer | HRZ Indonesia">
+    <meta property="og:description" content="Professional Software Engineer with 6+ years of experience. Specialized in backend development, cloud infrastructure, and scalable systems at HRZ Indonesia | IT Solutions.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://afifhrz.github.io/">
+    <meta property="og:site_name" content="Ahmad Afif Aulia Hariz Portfolio">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ahmad Afif Aulia Hariz - Software Engineer">
+    <meta name="twitter:description" content="Software Engineer at HRZ Indonesia | IT Solutions. Expert in backend development and cloud infrastructure.">
+    
+    <title>Ahmad Afif Aulia Hariz - Software Engineer | HRZ Indonesia | IT Solutions</title>
     <link rel="stylesheet" href="styles.css">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ahmad Afif Aulia Hariz",
+      "jobTitle": "Software Engineer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "HRZ Indonesia | IT Solutions"
+      },
+      "url": "https://afifhrz.github.io/",
+      "sameAs": [
+        "https://github.com/afifhrz",
+        "https://linkedin.com/in/afifhrz"
+      ],
+      "email": "ahmadafif.hariz@gmail.com",
+      "description": "Software Engineer with 6+ years of experience specializing in scalable systems, cloud infrastructure, and microservices"
+    }
+    </script>
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
@@ -30,7 +63,6 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>Software Engineer</h1>
@@ -44,7 +76,6 @@
         <div class="hero-decoration"></div>
     </section>
 
-    <!-- About Section -->
     <section id="about" class="section">
         <div class="container">
             <h2 class="section-title">About Me</h2>
@@ -58,7 +89,6 @@
         </div>
     </section>
 
-    <!-- Experience Section -->
     <section id="experience" class="section section-alt">
         <div class="container">
             <h2 class="section-title">Experience</h2>
@@ -111,71 +141,29 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <!-- <section id="projects" class="section">
+    <section id="projects" class="section">
         <div class="container">
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-header">
-                        <h3>Real-time Analytics Platform</h3>
-                        <a href="#" class="project-link" title="View project">→</a>
+                        <h3>High Throughput Order System</h3>
+                        <a href="https://afifhrz.github.io/high-throughput-order-system-dotnet/index.html" target="_blank" class="project-link" title="View project">→</a>
                     </div>
-                    <p class="project-description">Built a real-time analytics engine processing 1M events/second using Kafka, Redis, and PostgreSQL. Implemented complex aggregation pipelines and time-series data optimization.</p>
+                    <p class="project-description">Modular, event-driven order processing for low-latency, high-throughput trading</p>
                     <div class="project-tags">
-                        <span class="tag">Node.js</span>
-                        <span class="tag">Kafka</span>
-                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">.NET 10</span>
+                        <span class="tag">EF Core 9 | DDD</span>
                         <span class="tag">Redis</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Microservices Gateway</h3>
-                        <a href="#" class="project-link" title="View project">→</a>
-                    </div>
-                    <p class="project-description">Engineered an API gateway handling routing, rate limiting, and authentication for 20+ microservices. Achieved sub-50ms latency with intelligent caching strategies.</p>
-                    <div class="project-tags">
-                        <span class="tag">Go</span>
-                        <span class="tag">gRPC</span>
-                        <span class="tag">Kubernetes</span>
                         <span class="tag">Docker</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Distributed Database Sync</h3>
-                        <a href="#" class="project-link" title="View project">→</a>
-                    </div>
-                    <p class="project-description">Designed conflict resolution algorithm for distributed database synchronization across global regions. Ensured eventual consistency with minimal data loss.</p>
-                    <div class="project-tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">CRDT</span>
-                        <span class="tag">PostgreSQL</span>
-                        <span class="tag">AWS</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>High-Performance Cache Layer</h3>
-                        <a href="#" class="project-link" title="View project">→</a>
-                    </div>
-                    <p class="project-description">Implemented custom caching layer with intelligent TTL management and cache invalidation strategies. Reduced database load by 70% and improved response times.</p>
-                    <div class="project-tags">
-                        <span class="tag">Redis</span>
-                        <span class="tag">Node.js</span>
-                        <span class="tag">LRU Cache</span>
-                        <span class="tag">Performance</span>
+                        <span class="tag">Idempotency</span>
+                        <span class="tag">Smart Caching</span>
                     </div>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
-    <!-- Skills Section -->
     <section id="skills" class="section section-alt">
         <div class="container">
             <h2 class="section-title">Technical Skills</h2>
@@ -240,7 +228,6 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact" class="section">
         <div class="container">
             <h2 class="section-title">Let's Connect</h2>
@@ -274,7 +261,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <p>&copy; 2026 Software Engineer. Crafted with care and coffee.</p>
