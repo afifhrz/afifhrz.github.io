@@ -40,7 +40,63 @@
         "https://linkedin.com/in/afifhrz"
       ],
       "email": "ahmadafif.hariz@gmail.com",
-      "description": "Software Engineer with 6+ years of experience specializing in scalable systems, cloud infrastructure, and microservices"
+      "description": "Software Engineer with 6+ years of experience specializing in scalable systems, cloud infrastructure, and microservices",
+      "knowsAbout": [".NET", "ASP.NET Core", "Python", "Django", "FastAPI", "Go", "gRPC", "Microservices", "Distributed Systems", "Cloud Infrastructure", "AWS", "Kubernetes", "Docker", "System Design"],
+      "hasCertification": [],
+      "owns": [
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "High Throughput Order System",
+          "description": "Modular, event-driven order processing for low-latency, high-throughput trading with idempotent payment handling, double-spend prevention, and concurrent balance updates with full transaction integrity",
+          "programmingLanguage": ".NET 10",
+          "url": "https://afifhrz.github.io/high-throughput-order-system-dotnet/index.html"
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "Distributed Chat Application",
+          "description": "Scalable messaging backend using actor-based architecture and gRPC, supporting 1 million messages per second per channel",
+          "programmingLanguage": ".NET"
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "Blue Mountains Observatory Telescope Automation",
+          "description": "Full-stack web application automating telescope operations with real-time monitoring and control",
+          "programmingLanguage": "Python",
+          "url": "https://bluemountainsobservatory.com.au"
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "Project Management Application",
+          "description": "Full-stack Jira-like project management application with drag-and-drop task boards",
+          "programmingLanguage": "TypeScript"
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "Ceres Dental Web Application",
+          "description": "Full-stack dental practice web application with custom CMS and optimized SEO",
+          "programmingLanguage": "PHP",
+          "url": "https://ceresdental.com.au/"
+        },
+        {
+          "@type": "WebSite",
+          "name": "HRZ Indonesia - Business Website",
+          "description": "Official business website for HRZ Indonesia | IT Solutions software consultancy",
+          "url": "https://harizcorp.biz.id/"
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "AquaSphere - Fishery Management System",
+          "description": "Dockerized full-stack aquaculture management platform with multi-module domain model, role-aware authentication, and unit testing",
+          "programmingLanguage": "Python"
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "Household Management System",
+          "description": "Personal full-stack web application centralizing household finances, multi-asset investment tracking, and automated invoicing",
+          "programmingLanguage": "Python",
+          "url": "https://household.harizcorp.biz.id/"
+        }
+      ]
     }
     </script>
 </head>
@@ -55,6 +111,7 @@
                 <li><a href="#experience" class="nav-link">Experience</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             <div class="hamburger" id="hamburger">
@@ -67,8 +124,9 @@
 
     <section id="home" class="hero">
         <div class="hero-content">
+            <p class="hero-name">Ahmad Afif Aulia Hariz</p>
             <h1>Software Engineer</h1>
-            <p class="tagline">Building scalable systems that power the web and application</p>
+            <p class="tagline">Building scalable systems that power web applications</p>
             <p class="subtitle">6+ years crafting robust backends, microservices, and cloud infrastructure. Passionate about clean code, performance, and solving complex problems.</p>
             <div class="cta-buttons">
                 <a href="#projects" class="btn btn-primary">View My Work</a>
@@ -86,7 +144,7 @@
                 
                 <p>My expertise spans API design, database optimization, distributed systems, and cloud infrastructure. I believe in writing maintainable code, thorough testing, and continuous learning. I'm particularly interested in solving complex architectural challenges and mentoring junior engineers.</p>
                 
-                <p>I'm actively seeking remote opportunities where I can contribute to meaningful projects and grow alongside talented teams. When I'm not coding, you'll find me exploring new technologies, contributing to open-source, or diving deep into system design concepts.</p>
+                <p>I'm open to remote opportunities where I can contribute to meaningful projects and grow alongside talented teams. When I'm not coding, you'll find me exploring new technologies, contributing to open-source, or diving deep into system design concepts.</p>
             </div>
         </div>
     </section>
@@ -100,9 +158,22 @@
                         <h3>Senior Software Engineer</h3>
                         <span class="experience-company">The Software Practice</span>
                     </div>
-                    <p class="experience-period">2025 - Present</p>
+                    <p class="experience-period">Feb 2026 - Present · Singapore Construction Payment Platform</p>
                     <ul class="experience-list">
-                        <li>Developed backend features for Singapore Land Authority government portals, supporting large-scale land administration workflows</li>
+                        <li>Owned development of a distributed construction payment platform across multiple microservices — invoice APIs, manual billing, email notifications, and integrations with Workday and DBS Bank APIs, supporting <strong>thousands of daily transactions</strong></li>
+                        <li>Designed event-driven workflows using AWS SQS and SNS with <strong>&gt;99.9% message delivery success rate</strong>, and built Playwright regression framework with CI sharding, reducing test execution time by <strong>~60%</strong></li>
+                        <li>Led root cause analysis and production issue resolution, reducing recurring defects by <strong>~40%</strong> and maintaining <strong>near zero-downtime</strong> for critical payment services</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Senior Software Engineer</h3>
+                        <span class="experience-company">The Software Practice</span>
+                    </div>
+                    <p class="experience-period">2025 - 2026 · Singapore Land Authority</p>
+                    <ul class="experience-list">
+                        <li>Developed backend features supporting for large-scale land administration workflows</li>
                         <li>Optimized database queries achieving 40% performance improvement</li>
                         <li>Refactored legacy services into clean architecture aligned with SOLID principles, improving maintainability and testability</li>
                         <li>Implemented automated testing framework increasing code coverage to 85%</li>
@@ -139,6 +210,17 @@
                         <li>Deployed scalable cloud services on AWS Elastic Beanstalk, improving system stability and availability</li>
                     </ul>
                 </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Data Scientist</h3>
+                        <span class="experience-company">KJPP Rengganis, Hamid &amp; Rekan</span>
+                    </div>
+                    <p class="experience-period">Aug 2021 – Feb 2022 &middot; Jakarta, Indonesia</p>
+                    <ul class="experience-list">
+                        <li>Built an Automated Valuation Model (AVM) using Random Forest to automate property valuation, significantly reducing manual estimation error rates</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
@@ -150,16 +232,134 @@
                 <div class="project-card">
                     <div class="project-header">
                         <h3>High Throughput Order System</h3>
-                        <a href="https://afifhrz.github.io/high-throughput-order-system-dotnet/index.html" target="_blank" class="project-link" title="View project">→</a>
+                        <a href="https://afifhrz.github.io/high-throughput-order-system-dotnet/index.html" target="_blank" rel="noopener noreferrer" class="project-link" title="View High Throughput Order System project">→</a>
                     </div>
-                    <p class="project-description">Modular, event-driven order processing for low-latency, high-throughput trading</p>
+                    <p class="project-description">Modular, event-driven order processing for low-latency, high-throughput trading. Features idempotent payment handling, double-spend prevention, concurrent balance updates with full transaction integrity, and Redis-backed caching.</p>
                     <div class="project-tags">
                         <span class="tag">.NET 10</span>
                         <span class="tag">EF Core 9 | DDD</span>
                         <span class="tag">Redis</span>
+                        <span class="tag">MySQL</span>
                         <span class="tag">Docker</span>
                         <span class="tag">Idempotency</span>
                         <span class="tag">Smart Caching</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Distributed Chat Application</h3>
+                    </div>
+                    <p class="project-description">Scalable messaging backend using actor-based architecture and gRPC for internal communication, supporting 1 million messages per second per channel. Reduced operational costs from $1M to $100k/month.</p>
+                    <div class="project-tags">
+                        <span class="tag">gRPC</span>
+                        <span class="tag">Proto.Actor</span>
+                        <span class="tag">.NET</span>
+                        <span class="tag">Actor Model</span>
+                        <span class="tag">Distributed Systems</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Blue Mountains Observatory Telescope Automation</h3>
+                        <a href="https://bluemountainsobservatory.com.au" target="_blank" rel="noopener noreferrer" class="project-link" title="View Blue Mountains Observatory project">→</a>
+                    </div>
+                    <p class="project-description">Full-stack web application automating telescope operations with real-time monitoring and control. Implemented Alpine.js state management for live image rendering. Eliminated the need for two on-site operators through workflow automation.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Django</span>
+                        <span class="tag">Alpine.js</span>
+                        <span class="tag">Real-time</span>
+                        <span class="tag">Automation</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Project Management Application (Jira-like)</h3>
+                    </div>
+                    <p class="project-description">Full-stack project management app featuring task boards, drag-and-drop workflow tracking, real-time updates, and RESTful API integration. Built with scalable, reusable component architecture.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">REST API</span>
+                        <span class="tag">Context API</span>
+                        <span class="tag">Drag &amp; Drop</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Ceres Dental – Web Application</h3>
+                        <a href="https://ceresdental.com.au/" target="_blank" rel="noopener noreferrer" class="project-link" title="View Ceres Dental web application">→</a>
+                    </div>
+                    <p class="project-description">Full-stack dental practice web application with a customized CMS, reusable Tailwind CSS component system, and optimized SEO structure with improved metadata and content management workflows.</p>
+                    <div class="project-tags">
+                        <span class="tag">Laravel</span>
+                        <span class="tag">PHP</span>
+                        <span class="tag">Tailwind CSS</span>
+                        <span class="tag">CMS</span>
+                        <span class="tag">SEO</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>AquaSphere – Fishery Management System</h3>
+                        <span class="project-badge">Ongoing</span>
+                    </div>
+                    <p class="project-description">Dockerized, full-stack aquaculture management platform to digitize end-to-end fish farming workflows. Features a comprehensive multi-module domain model, custom role-aware authentication, and robust unit testing within a server-rendered architecture.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Django</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">Tailwind CSS</span>
+                        <span class="tag">Chart.js</span>
+                        <span class="tag">Gunicorn</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Household Management System</h3>
+                        <a href="https://household.harizcorp.biz.id/" target="_blank" rel="noopener noreferrer" class="project-link" title="View Household Management System">→</a>
+                    </div>
+                    <p class="project-description">Personal full-stack web application with a unified dashboard centralizing household finances, multi-asset investment tracking via live API integrations, debt tracking, savings goals, vehicle maintenance, and automated invoicing for a side business.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Django</span>
+                        <span class="tag">MariaDB</span>
+                        <span class="tag">Live APIs</span>
+                        <span class="tag">Finance</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education &amp; Research</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">🎓</div>
+                    <div class="education-body">
+                        <h3>B.Sc. Mathematics</h3>
+                        <p class="education-institution">Bandung Institute of Technology (ITB)</p>
+                        <p class="education-meta">Jul 2021 &middot; GPA 3.38 / 4.00</p>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">📄</div>
+                    <div class="education-body">
+                        <h3>Research Publication</h3>
+                        <p class="education-institution">Elsevier – Results in Engineering</p>
+                        <p class="education-meta">Published research on fluid dynamics</p>
+                        <a href="https://authors.elsevier.com/sd/article/S259003742100039X" target="_blank" rel="noopener noreferrer" class="education-link">View Publication →</a>
                     </div>
                 </div>
             </div>
@@ -184,7 +384,7 @@
                 <div class="skill-category">
                     <h4>Framework</h4>
                     <div class="skill-list">
-                        <span class="skill-badge">.NET 8 / ASP.NET Core</span>
+                        <span class="skill-badge">.NET / ASP.NET Core</span>
                         <span class="skill-badge">gRPC</span>
                         <span class="skill-badge">Proto Actor</span>
                         <span class="skill-badge">Django</span>
@@ -259,13 +459,21 @@
                         <div class="contact-value">linkedin.com/in/afifhrz</div>
                     </div>
                 </a>
+
+                <a href="https://harizcorp.biz.id/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <span class="contact-icon">🌐</span>
+                    <div>
+                        <div class="contact-label">Business</div>
+                        <div class="contact-value">harizcorp.biz.id</div>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Software Engineer. Crafted with care and coffee.</p>
+            <p>&copy; 2026 Ahmad Afif Aulia Hariz. Crafted with care and coffee.</p>
             <p class="footer-links">
                 <a href="#home">Home</a> • 
                 <a href="#about">About</a> • 
